@@ -6,7 +6,7 @@
 }
 
 .postTitle {
-  
+
   @include v.primary-color;
 
   text-decoration: none;
@@ -28,6 +28,7 @@
   padding: 20px;
   background-color: v.$black;
   margin-bottom: 20px;
+  border-radius: v.$borderRadius;
 }
 
 .postListLink:hover {

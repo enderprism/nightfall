@@ -2,28 +2,30 @@
 @use "sass:map";
 
 // Colors
-$darkGrey: #323232;
-$white: #f8f8ff;
-$black: #2f2f2f;
+$darkGrey: #45475a;
+$white: #cdd6f4;
+$black: #313244;
 
-$backgroundDarker: #252627;
-$backgroundDark: #292a2d;
+$backgroundDarker: #181825;
+$backgroundDark: #1e1e2e;
 
 //Fonts
-$fontHeader: 'Fira Mono', monospace;
+$fontHeader: 'JetBrains Mono', monospace;
 $fontParagraph: 'Open Sans', sans-serif;
-$fontCode: 'Fira Mono', monospace;
+$fontCode: 'JetBrains Mono', monospace;
 
 // Content
 $breakLarge: 992px;
 $width: 760px;
 
 $primary-colors: (
-    'blue': #80AADD,
-    'orange': #FFB300,
-    'green': #33D17A,
-    'red': #F26E74
+    'blue': #89b4fa,
+    'orange': #fab387,
+    'green': #a6e3a1,
+    'red': #f38ba8
 );
+
+$borderRadius: 8px;
 
 @mixin primary-color {
 
